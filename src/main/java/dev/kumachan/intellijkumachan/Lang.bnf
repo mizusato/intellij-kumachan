@@ -1,0 +1,25 @@
+{
+  parserClass="dev.kumachan.intellijkumachan.Parser"
+  extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
+  psiClassPrefix=""
+  psiImplClassSuffix="Impl"
+  psiPackage="dev.kumachan.intellijkumachan"
+  psiImplPackage="dev.kumachan.intellijkumachan.impl"
+  elementTypeHolderClass="dev.kumachan.intellijkumachan.Types"
+  elementTypeClass="dev.kumachan.intellijkumachan.Element"
+  tokenTypeClass="dev.kumachan.intellijkumachan.Token"
+  tokens=[
+    COMMENT='regexp:#.*'
+    FOO='foo'
+    BAR='bar'
+  ]
+}
+
+source_file ::= stmt*
+
+stmt ::= a | b
+
+a ::= FOO
+
+b ::= BAR
+
