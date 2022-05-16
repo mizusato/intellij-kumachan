@@ -12,7 +12,7 @@
         DOC="regexp:///[^\n]*"
         COMMENT="regexp://[^\n]*|/\*([^\*/]|\*[^/]|[^\*]/)*\*/"
         WHITE_SPACE="regexp:[ \t\r　]+|[\n]+"
-        TOKEN_TEXT="regexp:'[^']*'|\"[^\"]*\""
+        TOKEN_TEXT="regexp:\'[^\']*\'|\"[^\"]*\""
         INT="regexp:\-?0[xX][0-9A-Fa-f]+|\-?0[oO][0-7]+|\-?0[bB][01]+|\-?\d+"
         FLOAT="regexp:\-?\d+(\.\d+)?[Ee][\+\-]?\d+|\-?\d+\.\d+"
         BYTE="regexp:\\x[0-9A-Fa-f][0-9A-Fa-f]"
@@ -41,7 +41,7 @@
         NEW="regexp:new"
         SYM17="regexp:=>"
         SYM18="regexp:="
-        TOKEN_NAME="regexp:[^0-9\{\}\[\]\(\)\.,:;@\&\|\\'\"` \t\r　\n][^\{\}\[\]\(\)\.,:;@\&\|\\'\"` \t\r　\n]*"
+        TOKEN_NAME="regexp:[^0-9\{\}\[\]\(\)\.,:;@\&\|\\\'\"` \t\r　\n][^\{\}\[\]\(\)\.,:;@\&\|\\\'\"` \t\r　\n]*"
     ]
 }
 
