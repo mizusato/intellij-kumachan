@@ -29,14 +29,32 @@ public class StmtImpl extends ASTWrapperPsiElement implements Stmt {
 
   @Override
   @Nullable
-  public A getA() {
-    return findChildByClass(A.class);
+  public DeclConst getDeclConst() {
+    return findChildByClass(DeclConst.class);
   }
 
   @Override
   @Nullable
-  public B getB() {
-    return findChildByClass(B.class);
+  public DeclEntry getDeclEntry() {
+    return findChildByClass(DeclEntry.class);
+  }
+
+  @Override
+  @Nullable
+  public DeclFunc getDeclFunc() {
+    return findChildByClass(DeclFunc.class);
+  }
+
+  @Override
+  @Nullable
+  public DeclMethod getDeclMethod() {
+    return findChildByClass(DeclMethod.class);
+  }
+
+  @Override
+  @Nullable
+  public DeclType getDeclType() {
+    return findChildByClass(DeclType.class);
   }
 
 }

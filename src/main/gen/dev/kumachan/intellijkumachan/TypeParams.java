@@ -5,6 +5,15 @@ import java.util.List;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 
-public interface B extends PsiElement {
+public interface TypeParams extends PsiElement {
+
+  @NotNull
+  List<NodeName> getNodeNameList();
+
+  @NotNull
+  PsiElement getSym2();
+
+  @NotNull
+  PsiElement getSym3();
 
 }

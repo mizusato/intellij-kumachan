@@ -5,6 +5,12 @@ import java.util.List;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 
-public interface A extends PsiElement {
+public interface StringPart extends PsiElement {
+
+  @NotNull
+  StringPartContent getStringPartContent();
+
+  @NotNull
+  PsiElement getSym7();
 
 }

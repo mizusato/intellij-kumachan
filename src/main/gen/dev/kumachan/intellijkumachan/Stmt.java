@@ -8,9 +8,18 @@ import com.intellij.psi.PsiElement;
 public interface Stmt extends PsiElement {
 
   @Nullable
-  A getA();
+  DeclConst getDeclConst();
 
   @Nullable
-  B getB();
+  DeclEntry getDeclEntry();
+
+  @Nullable
+  DeclFunc getDeclFunc();
+
+  @Nullable
+  DeclMethod getDeclMethod();
+
+  @Nullable
+  DeclType getDeclType();
 
 }
