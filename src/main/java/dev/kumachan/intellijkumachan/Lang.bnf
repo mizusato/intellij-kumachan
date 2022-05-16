@@ -1,3 +1,4 @@
+// tokens and rules are generated from syntax_test.go
 {
     parserClass="dev.kumachan.intellijkumachan.Parser"
     extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
