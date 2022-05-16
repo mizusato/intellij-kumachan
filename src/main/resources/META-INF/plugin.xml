@@ -27,7 +27,7 @@
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
         <fileType
-            name="KumaChan File"
+            name="KumaChan"
             implementationClass="dev.kumachan.intellijkumachan.FileType"
             fieldName="INSTANCE"
             language="KumaChan"
@@ -36,8 +36,11 @@
             language="KumaChan"
             implementationClass="dev.kumachan.intellijkumachan.ParserDef" />
         <lang.syntaxHighlighterFactory
-                language="KumaChan"
-                implementationClass="dev.kumachan.intellijkumachan.HighlighterFactory" />
+            language="KumaChan"
+            implementationClass="dev.kumachan.intellijkumachan.HighlighterFactory" />
+        <annotator
+            language="KumaChan"
+            implementationClass="dev.kumachan.intellijkumachan.CodeAnnotator" />
     </extensions>
 </idea-plugin>
 

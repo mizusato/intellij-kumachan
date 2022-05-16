@@ -22,9 +22,14 @@ public class Highlighter extends SyntaxHighlighterBase {
             KEYWORD
         );
     public static final TextAttributesKey
-        SYM_KEYWORD = createTextAttributesKey(
+        SYMBOL = createTextAttributesKey(
             "KM_SYM_KEYWORD", DefaultLanguageHighlighterColors.
-            OPERATION_SIGN
+            INSTANCE_FIELD
+        );
+    public static final TextAttributesKey
+        CALLEE = createTextAttributesKey(
+            "KM_CALLEE", DefaultLanguageHighlighterColors.
+            INSTANCE_METHOD
         );
     public static final TextAttributesKey
         NUMBER = createTextAttributesKey(
@@ -59,6 +64,7 @@ public class Highlighter extends SyntaxHighlighterBase {
         return new LexerAdapter();
     }
     HashSet<String> as_keyword = new HashSet<String>(Set.of(
+        "SYM13",
         "IF", "ELSE", "WHEN", "LET", "NEW",
         "namespace",
         "entry", "type", "function", "operator", "const", "method",
@@ -66,8 +72,8 @@ public class Highlighter extends SyntaxHighlighterBase {
         "default", "variadic"
     ));
     HashMap<String,TextAttributesKey> mapping = new HashMap<String,TextAttributesKey>(Map.ofEntries(
-        Map.entry("SYM17", SYM_KEYWORD),
-        Map.entry("SYM18", SYM_KEYWORD),
+        Map.entry("SYM17", SYMBOL),
+        Map.entry("SYM18", SYMBOL),
         Map.entry("INT", NUMBER),
         Map.entry("FLOAT", NUMBER),
         Map.entry("BYTE", NUMBER),
