@@ -35,6 +35,9 @@
         <lang.parserDefinition
             language="KumaChan"
             implementationClass="dev.kumachan.intellijkumachan.ParserDef" />
+        <lang.syntaxHighlighterFactory
+                language="KumaChan"
+                implementationClass="dev.kumachan.intellijkumachan.HighlighterFactory" />
     </extensions>
 </idea-plugin>
 
