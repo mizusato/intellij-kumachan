@@ -35,26 +35,26 @@ public class CastImpl extends ASTWrapperPsiElement implements Cast {
 
   @Override
   @NotNull
-  public PsiElement getSym0() {
-    return findNotNullChildByType(SYM0);
+  public PsiElement getSym4000() {
+    return findNotNullChildByType(SYM4000);
   }
 
   @Override
   @NotNull
-  public PsiElement getSym1() {
-    return findNotNullChildByType(SYM1);
+  public PsiElement getSym4100() {
+    return findNotNullChildByType(SYM4100);
   }
 
   @Override
   @NotNull
-  public PsiElement getSym2() {
-    return findNotNullChildByType(SYM2);
+  public PsiElement getSym9100() {
+    return findNotNullChildByType(SYM9100);
   }
 
   @Override
   @NotNull
-  public PsiElement getSym3() {
-    return findNotNullChildByType(SYM3);
+  public PsiElement getSym9300() {
+    return findNotNullChildByType(SYM9300);
   }
 
 }

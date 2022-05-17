@@ -41,8 +41,8 @@ public class PipeInfixImpl extends ASTWrapperPsiElement implements PipeInfix {
 
   @Override
   @NotNull
-  public PsiElement getSym15() {
-    return findNotNullChildByType(SYM15);
+  public PsiElement getSym12400() {
+    return findNotNullChildByType(SYM12400);
   }
 
 }

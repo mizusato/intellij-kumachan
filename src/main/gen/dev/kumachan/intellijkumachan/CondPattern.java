@@ -14,6 +14,6 @@ public interface CondPattern extends PsiElement {
   PsiElement getLet();
 
   @NotNull
-  PsiElement getSym18();
+  PsiElement getSym6100();
 
 }

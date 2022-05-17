@@ -14,9 +14,9 @@ public interface Block extends PsiElement {
   Expr getExpr();
 
   @NotNull
-  PsiElement getSym4();
+  PsiElement getSym12300();
 
   @NotNull
-  PsiElement getSym5();
+  PsiElement getSym12500();
 
 }

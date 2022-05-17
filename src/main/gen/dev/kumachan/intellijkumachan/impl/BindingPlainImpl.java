@@ -47,14 +47,14 @@ public class BindingPlainImpl extends ASTWrapperPsiElement implements BindingPla
 
   @Override
   @NotNull
-  public PsiElement getSym18() {
-    return findNotNullChildByType(SYM18);
+  public PsiElement getSym4400() {
+    return findNotNullChildByType(SYM4400);
   }
 
   @Override
   @NotNull
-  public PsiElement getSym9() {
-    return findNotNullChildByType(SYM9);
+  public PsiElement getSym6100() {
+    return findNotNullChildByType(SYM6100);
   }
 
 }

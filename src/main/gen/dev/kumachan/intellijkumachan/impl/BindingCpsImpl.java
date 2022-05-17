@@ -47,14 +47,14 @@ public class BindingCpsImpl extends ASTWrapperPsiElement implements BindingCps {
 
   @Override
   @NotNull
-  public PsiElement getSym13() {
-    return findNotNullChildByType(SYM13);
+  public PsiElement getSym4400() {
+    return findNotNullChildByType(SYM4400);
   }
 
   @Override
   @NotNull
-  public PsiElement getSym9() {
-    return findNotNullChildByType(SYM9);
+  public PsiElement getSym6400() {
+    return findNotNullChildByType(SYM6400);
   }
 
 }

@@ -26,9 +26,9 @@ public interface NodeIf extends PsiElement {
   PsiElement getIf();
 
   @NotNull
-  PsiElement getSym0();
+  PsiElement getSym4000();
 
   @NotNull
-  PsiElement getSym1();
+  PsiElement getSym4100();
 
 }

@@ -35,14 +35,14 @@ public class TypeParamsImpl extends ASTWrapperPsiElement implements TypeParams {
 
   @Override
   @NotNull
-  public PsiElement getSym2() {
-    return findNotNullChildByType(SYM2);
+  public PsiElement getSym9100() {
+    return findNotNullChildByType(SYM9100);
   }
 
   @Override
   @NotNull
-  public PsiElement getSym3() {
-    return findNotNullChildByType(SYM3);
+  public PsiElement getSym9300() {
+    return findNotNullChildByType(SYM9300);
   }
 
 }

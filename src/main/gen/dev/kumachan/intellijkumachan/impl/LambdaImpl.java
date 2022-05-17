@@ -47,20 +47,20 @@ public class LambdaImpl extends ASTWrapperPsiElement implements Lambda {
 
   @Override
   @NotNull
-  public PsiElement getSym17() {
-    return findNotNullChildByType(SYM17);
+  public PsiElement getSym12300() {
+    return findNotNullChildByType(SYM12300);
   }
 
   @Override
   @NotNull
-  public PsiElement getSym4() {
-    return findNotNullChildByType(SYM4);
+  public PsiElement getSym12500() {
+    return findNotNullChildByType(SYM12500);
   }
 
   @Override
   @NotNull
-  public PsiElement getSym5() {
-    return findNotNullChildByType(SYM5);
+  public PsiElement getSym61006200() {
+    return findNotNullChildByType(SYM61006200);
   }
 
 }

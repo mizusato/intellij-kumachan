@@ -11,6 +11,6 @@ public interface StringPart extends PsiElement {
   StringPartContent getStringPartContent();
 
   @NotNull
-  PsiElement getSym7();
+  PsiElement getSym46004600();
 
 }

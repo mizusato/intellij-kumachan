@@ -41,8 +41,8 @@ public class CondPatternImpl extends ASTWrapperPsiElement implements CondPattern
 
   @Override
   @NotNull
-  public PsiElement getSym18() {
-    return findNotNullChildByType(SYM18);
+  public PsiElement getSym6100() {
+    return findNotNullChildByType(SYM6100);
   }
 
 }

@@ -11,9 +11,9 @@ public interface NativeBody extends PsiElement {
   NodeText getNodeText();
 
   @NotNull
-  PsiElement getSym0();
+  PsiElement getSym4000();
 
   @NotNull
-  PsiElement getSym1();
+  PsiElement getSym4100();
 
 }

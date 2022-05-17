@@ -11,6 +11,6 @@ public interface ArgMappingTo extends PsiElement {
   Expr getExpr();
 
   @NotNull
-  PsiElement getSym11();
+  PsiElement getSym5800();
 
 }

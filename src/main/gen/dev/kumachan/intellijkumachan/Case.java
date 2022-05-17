@@ -17,6 +17,6 @@ public interface Case extends PsiElement {
   Pattern getPattern();
 
   @NotNull
-  PsiElement getSym17();
+  PsiElement getSym61006200();
 
 }

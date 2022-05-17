@@ -35,8 +35,8 @@ public class NsImpl extends ASTWrapperPsiElement implements Ns {
 
   @Override
   @NotNull
-  public PsiElement getSym10() {
-    return findNotNullChildByType(SYM10);
+  public PsiElement getSym58005800() {
+    return findNotNullChildByType(SYM58005800);
   }
 
 }

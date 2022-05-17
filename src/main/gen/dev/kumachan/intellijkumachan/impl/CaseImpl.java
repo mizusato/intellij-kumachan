@@ -47,8 +47,8 @@ public class CaseImpl extends ASTWrapperPsiElement implements Case {
 
   @Override
   @NotNull
-  public PsiElement getSym17() {
-    return findNotNullChildByType(SYM17);
+  public PsiElement getSym61006200() {
+    return findNotNullChildByType(SYM61006200);
   }
 
 }

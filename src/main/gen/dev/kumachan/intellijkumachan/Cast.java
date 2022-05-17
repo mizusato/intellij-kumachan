@@ -11,15 +11,15 @@ public interface Cast extends PsiElement {
   NodeType getNodeType();
 
   @NotNull
-  PsiElement getSym0();
+  PsiElement getSym4000();
 
   @NotNull
-  PsiElement getSym1();
+  PsiElement getSym4100();
 
   @NotNull
-  PsiElement getSym2();
+  PsiElement getSym9100();
 
   @NotNull
-  PsiElement getSym3();
+  PsiElement getSym9300();
 
 }

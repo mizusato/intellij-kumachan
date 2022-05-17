@@ -11,6 +11,6 @@ public interface CpsPattern extends PsiElement {
   Pattern getPattern();
 
   @NotNull
-  PsiElement getSym18();
+  PsiElement getSym6100();
 
 }

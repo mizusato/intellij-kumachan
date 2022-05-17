@@ -35,8 +35,8 @@ public class PipeGetImpl extends ASTWrapperPsiElement implements PipeGet {
 
   @Override
   @NotNull
-  public PsiElement getSym8() {
-    return findNotNullChildByType(SYM8);
+  public PsiElement getSym4600() {
+    return findNotNullChildByType(SYM4600);
   }
 
 }

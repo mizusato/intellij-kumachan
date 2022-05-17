@@ -35,8 +35,8 @@ public class ArgMappingToImpl extends ASTWrapperPsiElement implements ArgMapping
 
   @Override
   @NotNull
-  public PsiElement getSym11() {
-    return findNotNullChildByType(SYM11);
+  public PsiElement getSym5800() {
+    return findNotNullChildByType(SYM5800);
   }
 
 }

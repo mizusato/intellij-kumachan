@@ -14,6 +14,6 @@ public interface PipeInfix extends PsiElement {
   Ref getRef();
 
   @NotNull
-  PsiElement getSym15();
+  PsiElement getSym12400();
 
 }

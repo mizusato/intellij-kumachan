@@ -35,8 +35,8 @@ public class LambdaSelfImpl extends ASTWrapperPsiElement implements LambdaSelf {
 
   @Override
   @NotNull
-  public PsiElement getSym14() {
-    return findNotNullChildByType(SYM14);
+  public PsiElement getSym3800() {
+    return findNotNullChildByType(SYM3800);
   }
 
 }

@@ -11,9 +11,9 @@ public interface TypeParams extends PsiElement {
   List<NodeName> getNodeNameList();
 
   @NotNull
-  PsiElement getSym2();
+  PsiElement getSym9100();
 
   @NotNull
-  PsiElement getSym3();
+  PsiElement getSym9300();
 
 }

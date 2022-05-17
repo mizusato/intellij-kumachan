@@ -35,8 +35,8 @@ public class StringPartImpl extends ASTWrapperPsiElement implements StringPart {
 
   @Override
   @NotNull
-  public PsiElement getSym7() {
-    return findNotNullChildByType(SYM7);
+  public PsiElement getSym46004600() {
+    return findNotNullChildByType(SYM46004600);
   }
 
 }

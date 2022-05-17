@@ -17,12 +17,12 @@ public interface Lambda extends PsiElement {
   Pattern getPattern();
 
   @NotNull
-  PsiElement getSym17();
+  PsiElement getSym12300();
 
   @NotNull
-  PsiElement getSym4();
+  PsiElement getSym12500();
 
   @NotNull
-  PsiElement getSym5();
+  PsiElement getSym61006200();
 
 }

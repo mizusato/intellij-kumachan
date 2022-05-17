@@ -11,9 +11,9 @@ public interface CallUnordered extends PsiElement {
   List<ArgMapping> getArgMappingList();
 
   @NotNull
-  PsiElement getSym4();
+  PsiElement getSym12300();
 
   @NotNull
-  PsiElement getSym5();
+  PsiElement getSym12500();
 
 }

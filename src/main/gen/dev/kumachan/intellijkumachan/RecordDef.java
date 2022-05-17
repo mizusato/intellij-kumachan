@@ -11,9 +11,9 @@ public interface RecordDef extends PsiElement {
   List<Field> getFieldList();
 
   @NotNull
-  PsiElement getSym4();
+  PsiElement getSym12300();
 
   @NotNull
-  PsiElement getSym5();
+  PsiElement getSym12500();
 
 }

@@ -11,6 +11,6 @@ public interface NsPrefix extends PsiElement {
   NodeName getNodeName();
 
   @NotNull
-  PsiElement getSym10();
+  PsiElement getSym58005800();
 
 }

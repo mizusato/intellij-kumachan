@@ -11,9 +11,9 @@ public interface NodeInterface extends PsiElement {
   List<NodeMethod> getNodeMethodList();
 
   @NotNull
-  PsiElement getSym4();
+  PsiElement getSym12300();
 
   @NotNull
-  PsiElement getSym5();
+  PsiElement getSym12500();
 
 }

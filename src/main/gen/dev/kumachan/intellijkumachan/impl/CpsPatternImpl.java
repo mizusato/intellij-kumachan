@@ -35,8 +35,8 @@ public class CpsPatternImpl extends ASTWrapperPsiElement implements CpsPattern {
 
   @Override
   @NotNull
-  public PsiElement getSym18() {
-    return findNotNullChildByType(SYM18);
+  public PsiElement getSym6100() {
+    return findNotNullChildByType(SYM6100);
   }
 
 }

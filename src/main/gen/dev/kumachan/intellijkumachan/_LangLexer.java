@@ -729,77 +729,77 @@ public class _LangLexer implements FlexLexer {
             // fall through
           case 52: break;
           case 5: 
-            { return SYM8;
+            { return SYM4600;
             } 
             // fall through
           case 53: break;
           case 6: 
-            { return SYM16;
+            { return SYM9200;
             } 
             // fall through
           case 54: break;
           case 7: 
-            { return SYM0;
+            { return SYM4000;
             } 
             // fall through
           case 55: break;
           case 8: 
-            { return SYM1;
+            { return SYM4100;
             } 
             // fall through
           case 56: break;
           case 9: 
-            { return SYM2;
+            { return SYM9100;
             } 
             // fall through
           case 57: break;
           case 10: 
-            { return SYM3;
+            { return SYM9300;
             } 
             // fall through
           case 58: break;
           case 11: 
-            { return SYM4;
+            { return SYM12300;
             } 
             // fall through
           case 59: break;
           case 12: 
-            { return SYM5;
+            { return SYM12500;
             } 
             // fall through
           case 60: break;
           case 13: 
-            { return SYM9;
+            { return SYM4400;
             } 
             // fall through
           case 61: break;
           case 14: 
-            { return SYM11;
+            { return SYM5800;
             } 
             // fall through
           case 62: break;
           case 15: 
-            { return SYM12;
+            { return SYM5900;
             } 
             // fall through
           case 63: break;
           case 16: 
-            { return SYM13;
+            { return SYM6400;
             } 
             // fall through
           case 64: break;
           case 17: 
-            { return SYM14;
+            { return SYM3800;
             } 
             // fall through
           case 65: break;
           case 18: 
-            { return SYM15;
+            { return SYM12400;
             } 
             // fall through
           case 66: break;
           case 19: 
-            { return SYM18;
+            { return SYM6100;
             } 
             // fall through
           case 67: break;
@@ -814,7 +814,7 @@ public class _LangLexer implements FlexLexer {
             // fall through
           case 69: break;
           case 22: 
-            { return SYM7;
+            { return SYM46004600;
             } 
             // fall through
           case 70: break;
@@ -824,7 +824,7 @@ public class _LangLexer implements FlexLexer {
             // fall through
           case 71: break;
           case 24: 
-            { return SYM10;
+            { return SYM58005800;
             } 
             // fall through
           case 72: break;
@@ -834,7 +834,7 @@ public class _LangLexer implements FlexLexer {
             // fall through
           case 73: break;
           case 26: 
-            { return SYM17;
+            { return SYM61006200;
             } 
             // fall through
           case 74: break;
@@ -849,7 +849,7 @@ public class _LangLexer implements FlexLexer {
             // fall through
           case 76: break;
           case 29: 
-            { return SYM6;
+            { return SYM460046004600;
             } 
             // fall through
           case 77: break;

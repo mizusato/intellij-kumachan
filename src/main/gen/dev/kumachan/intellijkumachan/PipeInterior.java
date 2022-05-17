@@ -11,12 +11,12 @@ public interface PipeInterior extends PsiElement {
   RefBase getRefBase();
 
   @NotNull
-  PsiElement getSym0();
+  PsiElement getSym4000();
 
   @NotNull
-  PsiElement getSym1();
+  PsiElement getSym4100();
 
   @NotNull
-  PsiElement getSym8();
+  PsiElement getSym4600();
 
 }

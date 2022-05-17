@@ -17,9 +17,9 @@ public interface BindingCps extends PsiElement {
   Ref getRef();
 
   @NotNull
-  PsiElement getSym13();
+  PsiElement getSym4400();
 
   @NotNull
-  PsiElement getSym9();
+  PsiElement getSym6400();
 
 }

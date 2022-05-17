@@ -64,7 +64,7 @@ public class Highlighter extends SyntaxHighlighterBase {
         return new LexerAdapter();
     }
     HashSet<String> as_keyword = new HashSet<String>(Set.of(
-        "SYM13",
+        "SYM6400",
         "IF", "ELSE", "WHEN", "LET", "NEW",
         "namespace",
         "entry", "type", "function", "operator", "const", "method",
@@ -72,8 +72,8 @@ public class Highlighter extends SyntaxHighlighterBase {
         "default", "variadic"
     ));
     HashMap<String,TextAttributesKey> mapping = new HashMap<String,TextAttributesKey>(Map.ofEntries(
-        Map.entry("SYM17", SYMBOL),
-        Map.entry("SYM18", SYMBOL),
+        Map.entry("SYM61006200", SYMBOL),
+        Map.entry("SYM6100", SYMBOL),
         Map.entry("INT", NUMBER),
         Map.entry("FLOAT", NUMBER),
         Map.entry("BYTE", NUMBER),

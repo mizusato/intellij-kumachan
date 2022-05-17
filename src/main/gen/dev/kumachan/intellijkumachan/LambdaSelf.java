@@ -11,6 +11,6 @@ public interface LambdaSelf extends PsiElement {
   NodeName getNodeName();
 
   @NotNull
-  PsiElement getSym14();
+  PsiElement getSym3800();
 
 }

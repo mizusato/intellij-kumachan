@@ -35,20 +35,20 @@ public class PipeInteriorImpl extends ASTWrapperPsiElement implements PipeInteri
 
   @Override
   @NotNull
-  public PsiElement getSym0() {
-    return findNotNullChildByType(SYM0);
+  public PsiElement getSym4000() {
+    return findNotNullChildByType(SYM4000);
   }
 
   @Override
   @NotNull
-  public PsiElement getSym1() {
-    return findNotNullChildByType(SYM1);
+  public PsiElement getSym4100() {
+    return findNotNullChildByType(SYM4100);
   }
 
   @Override
   @NotNull
-  public PsiElement getSym8() {
-    return findNotNullChildByType(SYM8);
+  public PsiElement getSym4600() {
+    return findNotNullChildByType(SYM4600);
   }
 
 }

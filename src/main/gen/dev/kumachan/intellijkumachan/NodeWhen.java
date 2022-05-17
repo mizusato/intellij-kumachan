@@ -14,16 +14,16 @@ public interface NodeWhen extends PsiElement {
   Expr getExpr();
 
   @NotNull
-  PsiElement getSym0();
+  PsiElement getSym12300();
 
   @NotNull
-  PsiElement getSym1();
+  PsiElement getSym12500();
 
   @NotNull
-  PsiElement getSym4();
+  PsiElement getSym4000();
 
   @NotNull
-  PsiElement getSym5();
+  PsiElement getSym4100();
 
   @NotNull
   PsiElement getWhen();

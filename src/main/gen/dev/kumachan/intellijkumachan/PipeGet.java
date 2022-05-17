@@ -11,6 +11,6 @@ public interface PipeGet extends PsiElement {
   NodeName getNodeName();
 
   @NotNull
-  PsiElement getSym8();
+  PsiElement getSym4600();
 
 }

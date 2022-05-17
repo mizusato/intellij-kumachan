@@ -11,9 +11,9 @@ public interface TypeArgs extends PsiElement {
   List<NodeType> getNodeTypeList();
 
   @NotNull
-  PsiElement getSym2();
+  PsiElement getSym9100();
 
   @NotNull
-  PsiElement getSym3();
+  PsiElement getSym9300();
 
 }

@@ -17,9 +17,9 @@ public interface InfixTerm extends PsiElement {
   NodeOperator getNodeOperator();
 
   @NotNull
-  PsiElement getSym0();
+  PsiElement getSym4000();
 
   @NotNull
-  PsiElement getSym1();
+  PsiElement getSym4100();
 
 }

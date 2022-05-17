@@ -35,14 +35,14 @@ public class CallOrderedImpl extends ASTWrapperPsiElement implements CallOrdered
 
   @Override
   @NotNull
-  public PsiElement getSym0() {
-    return findNotNullChildByType(SYM0);
+  public PsiElement getSym4000() {
+    return findNotNullChildByType(SYM4000);
   }
 
   @Override
   @NotNull
-  public PsiElement getSym1() {
-    return findNotNullChildByType(SYM1);
+  public PsiElement getSym4100() {
+    return findNotNullChildByType(SYM4100);
   }
 
 }

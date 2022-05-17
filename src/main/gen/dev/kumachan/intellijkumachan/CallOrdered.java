@@ -11,9 +11,9 @@ public interface CallOrdered extends PsiElement {
   List<Expr> getExprList();
 
   @NotNull
-  PsiElement getSym0();
+  PsiElement getSym4000();
 
   @NotNull
-  PsiElement getSym1();
+  PsiElement getSym4100();
 
 }

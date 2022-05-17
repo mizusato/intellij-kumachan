@@ -17,9 +17,9 @@ public interface BindingPlain extends PsiElement {
   PsiElement getLet();
 
   @NotNull
-  PsiElement getSym18();
+  PsiElement getSym4400();
 
   @NotNull
-  PsiElement getSym9();
+  PsiElement getSym6100();
 
 }

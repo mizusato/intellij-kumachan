@@ -11,6 +11,6 @@ public interface PipeCast extends PsiElement {
   Cast getCast();
 
   @NotNull
-  PsiElement getSym8();
+  PsiElement getSym4600();
 
 }

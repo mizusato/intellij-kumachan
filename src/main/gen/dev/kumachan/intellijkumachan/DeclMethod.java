@@ -23,6 +23,6 @@ public interface DeclMethod extends PsiElement {
   Receiver getReceiver();
 
   @NotNull
-  PsiElement getSym8();
+  PsiElement getSym4600();
 
 }
