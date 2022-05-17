@@ -27,9 +27,19 @@ public class Highlighter extends SyntaxHighlighterBase {
             INSTANCE_FIELD
         );
     public static final TextAttributesKey
-        CALLEE = createTextAttributesKey(
-            "KM_CALLEE", DefaultLanguageHighlighterColors.
+        FUNC = createTextAttributesKey(
+            "KM_FUNC", DefaultLanguageHighlighterColors.
             INSTANCE_METHOD
+        );
+    public static final TextAttributesKey
+        CONST = createTextAttributesKey(
+            "KM_CONST", DefaultLanguageHighlighterColors.
+            INSTANCE_METHOD
+        );
+    public static final TextAttributesKey
+        TYPE = createTextAttributesKey(
+            "KM_TYPE", DefaultLanguageHighlighterColors.
+            STRING
         );
     public static final TextAttributesKey
         NUMBER = createTextAttributesKey(
@@ -39,7 +49,7 @@ public class Highlighter extends SyntaxHighlighterBase {
     public static final TextAttributesKey
         STRING = createTextAttributesKey(
             "KM_STRING", DefaultLanguageHighlighterColors.
-            STRING
+            METADATA
         );
     public static final TextAttributesKey
         COMMENT = createTextAttributesKey(
@@ -71,15 +81,19 @@ public class Highlighter extends SyntaxHighlighterBase {
         "native", "record", "interface", "union", "enum",
         "default", "variadic"
     ));
+    HashSet<String> as_symbol = new HashSet<String>(Set.of(
+        "SYM4000", "SYM4100",
+        "SYM9100", "SYM9300",
+        "SYM12300", "SYM12500"
+    ));
     HashMap<String,TextAttributesKey> mapping = new HashMap<String,TextAttributesKey>(Map.ofEntries(
-        Map.entry("SYM61006200", SYMBOL),
-        Map.entry("SYM6100", SYMBOL),
+        Map.entry("DOC", DOC),
+        Map.entry("COMMENT", COMMENT),
+        Map.entry("TOKEN_TEXT", STRING),
         Map.entry("INT", NUMBER),
         Map.entry("FLOAT", NUMBER),
         Map.entry("BYTE", NUMBER),
-        Map.entry("TOKEN_TEXT", STRING),
-        Map.entry("COMMENT", COMMENT),
-        Map.entry("DOC", DOC)
+        Map.entry("CHAR", NUMBER)
     ));
     @Override public TextAttributesKey @NotNull []
     getTokenHighlights(IElementType tokenType) {
@@ -87,6 +101,8 @@ public class Highlighter extends SyntaxHighlighterBase {
             var name = ((Token) tokenType).tokenName;
             if (as_keyword.contains(name)) {
                 return new TextAttributesKey[] { KEYWORD };
+            } else if (as_symbol.contains(name)) {
+                return new TextAttributesKey[] { SYMBOL };
             } else {
                 TextAttributesKey attr = mapping.get(name);
                 if (attr != null) {
