@@ -58,7 +58,7 @@ public class Highlighter extends SyntaxHighlighterBase {
         );
     public static final TextAttributesKey
         DOC = createTextAttributesKey(
-            "KM_COMMENT", DefaultLanguageHighlighterColors.
+            "KM_DOC", DefaultLanguageHighlighterColors.
             DOC_COMMENT
         );
     public static final TextAttributesKey
