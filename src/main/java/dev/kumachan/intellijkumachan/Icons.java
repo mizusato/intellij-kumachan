@@ -6,7 +6,7 @@ import javax.swing.*;
 
 public class Icons {
     public static final Icon FILE =
-            IconLoader.getIcon("/icons/default.png", Icons.class);
+            IconLoader.getIcon("/icons/default.svg", Icons.class);
 }
 
 
