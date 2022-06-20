@@ -5,12 +5,12 @@ import java.util.List;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 
-public interface NodeNew extends PsiElement {
-
-  @Nullable
-  NewTag getNewTag();
+public interface NewTag extends PsiElement {
 
   @NotNull
-  PsiElement getNew();
+  NodeName getNodeName();
+
+  @NotNull
+  PsiElement getSym5800();
 
 }

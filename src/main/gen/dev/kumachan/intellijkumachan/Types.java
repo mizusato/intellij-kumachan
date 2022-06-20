@@ -46,6 +46,7 @@ public interface Types {
   IElementType LAMBDA_SELF = new Element("LAMBDA_SELF");
   IElementType NATIVE_BODY = new Element("NATIVE_BODY");
   IElementType NATIVE_TYPE_DEF = new Element("NATIVE_TYPE_DEF");
+  IElementType NEW_TAG = new Element("NEW_TAG");
   IElementType NODE_BYTE = new Element("NODE_BYTE");
   IElementType NODE_CHAR = new Element("NODE_CHAR");
   IElementType NODE_DOC = new Element("NODE_DOC");
@@ -255,6 +256,9 @@ public interface Types {
       }
       else if (type == NATIVE_TYPE_DEF) {
         return new NativeTypeDefImpl(node);
+      }
+      else if (type == NEW_TAG) {
+        return new NewTagImpl(node);
       }
       else if (type == NODE_BYTE) {
         return new NodeByteImpl(node);

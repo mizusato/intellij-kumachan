@@ -882,6 +882,19 @@ public class Parser implements PsiParser, LightPsiParser {
   }
 
   /* ********************************************************** */
+  // SYM5800 node_name
+  public static boolean new_tag(PsiBuilder b, int l) {
+    if (!recursion_guard_(b, l, "new_tag")) return false;
+    if (!nextTokenIs(b, SYM5800)) return false;
+    boolean r;
+    Marker m = enter_section_(b);
+    r = consumeToken(b, SYM5800);
+    r = r && node_name(b, l + 1);
+    exit_section_(b, m, NEW_TAG, r);
+    return r;
+  }
+
+  /* ********************************************************** */
   // BYTE
   public static boolean node_byte(PsiBuilder b, int l) {
     if (!recursion_guard_(b, l, "node_byte")) return false;
@@ -1131,15 +1144,23 @@ public class Parser implements PsiParser, LightPsiParser {
   }
 
   /* ********************************************************** */
-  // NEW
+  // NEW new_tag?
   public static boolean node_new(PsiBuilder b, int l) {
     if (!recursion_guard_(b, l, "node_new")) return false;
     if (!nextTokenIs(b, NEW)) return false;
     boolean r;
     Marker m = enter_section_(b);
     r = consumeToken(b, NEW);
+    r = r && node_new_1(b, l + 1);
     exit_section_(b, m, NODE_NEW, r);
     return r;
+  }
+
+  // new_tag?
+  private static boolean node_new_1(PsiBuilder b, int l) {
+    if (!recursion_guard_(b, l, "node_new_1")) return false;
+    new_tag(b, l + 1);
+    return true;
   }
 
   /* ********************************************************** */

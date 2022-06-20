@@ -11,14 +11,14 @@ import static dev.kumachan.intellijkumachan.Types.*;
 import com.intellij.extapi.psi.ASTWrapperPsiElement;
 import dev.kumachan.intellijkumachan.*;
 
-public class NodeNewImpl extends ASTWrapperPsiElement implements NodeNew {
+public class NewTagImpl extends ASTWrapperPsiElement implements NewTag {
 
-  public NodeNewImpl(@NotNull ASTNode node) {
+  public NewTagImpl(@NotNull ASTNode node) {
     super(node);
   }
 
   public void accept(@NotNull Visitor visitor) {
-    visitor.visitNodeNew(this);
+    visitor.visitNewTag(this);
   }
 
   @Override
@@ -28,15 +28,15 @@ public class NodeNewImpl extends ASTWrapperPsiElement implements NodeNew {
   }
 
   @Override
-  @Nullable
-  public NewTag getNewTag() {
-    return findChildByClass(NewTag.class);
+  @NotNull
+  public NodeName getNodeName() {
+    return findNotNullChildByClass(NodeName.class);
   }
 
   @Override
   @NotNull
-  public PsiElement getNew() {
-    return findNotNullChildByType(NEW);
+  public PsiElement getSym5800() {
+    return findNotNullChildByType(SYM5800);
   }
 
 }

@@ -97,6 +97,9 @@ public class CodeAnnotator implements Annotator {
                 var r = b.getTextRange();
                 highlight(h, r, Highlighter.TYPE);
             }
+        } else if (element instanceof NewTag) {
+            NewTag el = ((NewTag) element);
+            highlight(h, el.getTextRange(), Highlighter.KEYWORD);
         }
     }
 }

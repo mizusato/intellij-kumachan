@@ -159,6 +159,10 @@ public class Visitor extends PsiElementVisitor {
     visitPsiElement(o);
   }
 
+  public void visitNewTag(@NotNull NewTag o) {
+    visitPsiElement(o);
+  }
+
   public void visitNodeByte(@NotNull NodeByte o) {
     visitPsiElement(o);
   }
