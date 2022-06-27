@@ -97,7 +97,6 @@ public interface Types {
   IElementType CHAR = new Token("CHAR");
   IElementType COMMENT = new Token("COMMENT");
   IElementType CONST = new Token("const");
-  IElementType DEFAULT = new Token("default");
   IElementType DOC = new Token("DOC");
   IElementType ELSE = new Token("ELSE");
   IElementType ENTRY = new Token("entry");

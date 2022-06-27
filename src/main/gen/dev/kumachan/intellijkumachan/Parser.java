@@ -658,13 +658,13 @@ public class Parser implements PsiParser, LightPsiParser {
   }
 
   /* ********************************************************** */
-  // default SYM4000 expr SYM4100
+  // SYM4000 expr SYM4100
   public static boolean field_default(PsiBuilder b, int l) {
     if (!recursion_guard_(b, l, "field_default")) return false;
-    if (!nextTokenIs(b, DEFAULT)) return false;
+    if (!nextTokenIs(b, SYM4000)) return false;
     boolean r;
     Marker m = enter_section_(b);
-    r = consumeTokens(b, 0, DEFAULT, SYM4000);
+    r = consumeToken(b, SYM4000);
     r = r && expr(b, l + 1);
     r = r && consumeToken(b, SYM4100);
     exit_section_(b, m, FIELD_DEFAULT, r);

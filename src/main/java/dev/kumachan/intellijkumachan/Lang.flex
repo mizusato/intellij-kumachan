@@ -68,7 +68,6 @@ TOKEN_NAME=[^0-9\{\}\[\]\(\)\.,:;@\&\|\\'\"` \t\r　\n][^\{\}\[\]\(\)\.,:;@\&\|\
   "type"                 { return TYPE; }
   "native"               { return NATIVE; }
   "record"               { return RECORD; }
-  "default"              { return DEFAULT; }
   "interface"            { return INTERFACE; }
   "union"                { return UNION; }
   "enum"                 { return ENUM; }
